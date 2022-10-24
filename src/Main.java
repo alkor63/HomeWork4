@@ -2,34 +2,11 @@ public class Main {
     public static void main(String[] args) {
 // Home Work 4
         System.out.println("********** Home Work 4 **********");
-// Task 1
-        System.out.println(" Task 1");
-        byte age = 21;
-        if (age >= 18)  { System.out.println("Поздравляем, тебе уже "+ age +" ты можешь купить пива!");}
-        age = 16;
-        if (age < 18)  { System.out.println("Извини, тебе всего "+ age +" ты не можешь купить пива!");}
 
-// Task 2
-        System.out.println(" Task 2");
-        age = 9;
-        if (age >= 7)  { System.out.println("Ребенку "+ age +" лет, он ходит в школу!");}
-        age = 19;
-        if (age >= 18)  { System.out.println("Юноше "+ age +" ,он студент!");}
-        age = 26;
-        if (age >= 24)  { System.out.println("Парню "+ age +" ,он наконец-то нашел работу!");}
-
-// Task 3
-        System.out.println(" Task 3");
+        int age = 21;
         byte capacity = 102;
         byte sitting = 60;
         byte numPas = 55;
-        if (numPas < sitting)  { System.out.println("В вагоне еще есть "+ (sitting-numPas) +" сидячих мест!");}
-        numPas = 75;
-        if (numPas > sitting)  { System.out.println("Увы, все сидячие места заняты");
-            if (numPas < capacity) System.out.println("В вагоне еще есть "+ (capacity-numPas) +" СТОЯЧИХ мест!");
-         }
-        numPas = 105;
-        if (numPas > capacity)  { System.out.println("Увы, ВСЕ места заняты!!!");}
 // Task 1 else
         System.out.println(" * Task 1 else");
         age = 16;
@@ -94,7 +71,7 @@ public class Main {
 
                 // Task 6
         System.out.println(" * Task 6");
-        int one = 4;
+        int one = 8;
         int two = 5;
         int free = 3;
         if (one > two && one > free) System.out.println("Наибольшее число = " + one);
