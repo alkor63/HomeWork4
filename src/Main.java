@@ -71,7 +71,7 @@ public class Main {
 
                 // Task 6
         System.out.println(" * Task 6");
-        int one = 8;
+        int one = 2;
         int two = 5;
         int free = 3;
         if (one > two && one > free) System.out.println("Наибольшее число = " + one);
